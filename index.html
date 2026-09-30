@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Keerthi Prasad | Photographer</title>
+<meta name="description" content="Keerthi Prasad, photographer. Travel, product and lifestyle, fashion and concerts.">
+<meta property="og:title" content="Keerthi Prasad | Photographer">
+<meta property="og:description" content="Stories told in 50mm. Travel, product and lifestyle, fashion and concerts.">
+<meta property="og:image" content="img/travel-01.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top" id="top">
+  <a class="logo" href="#top" aria-label="KP home">KP</a>
+  <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav">
+    <a href="#work">View work</a>
+    <a href="#about">About me</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="reel" id="reel" aria-hidden="true"></div>
+  <div class="hero-shade"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">Keerthi Prasad &nbsp;/&nbsp; Photographer</p>
+    <h1>Stories told in 50mm.</h1>
+    <a class="cue" href="#work">View work <span>&darr;</span></a>
+  </div>
+</section>
+
+<section class="work" id="work">
+  <div class="bar">
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div class="views" id="views">
+      <button data-v="grid" class="on" aria-label="Grid view">Grid</button>
+      <button data-v="slider" aria-label="Slider view">Slider</button>
+    </div>
+  </div>
+  <div id="stage"></div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-photo" id="about-photo">
+    <img src="img/keerthi.jpg" width="1200" height="1500" loading="lazy" alt="Keerthi Prasad">
+  </div>
+  <div class="about-copy">
+    <p class="eyebrow">About me</p>
+    <h2>Hi, I'm Keerthi.</h2>
+    <p class="bio">I'm a photographer working across travel, product, fashion and live music. On weekends I shoot for brands and events, and whenever I travel, the camera comes along.</p>
+    <p class="cta">Shooting a brand, an event or a trip? Let's talk.</p>
+    <dl class="details">
+      <div><dt>Email</dt><dd><a href="mailto:keerthiprasad73@gmail.com">keerthiprasad73@gmail.com</a></dd></div>
+      <div><dt>Phone</dt><dd><a href="tel:+917204233006">+91 72042 33006</a></dd></div>
+      <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/50mmstack/" target="_blank" rel="noopener">@50mmstack</a></dd></div>
+    </dl>
+  </div>
+</section>
+<footer><span>&copy; <span id="yr"></span> Keerthi Prasad</span><span>All images are protected. Please ask before using.</span></footer>
+
+<div class="lb" id="lb" hidden>
+  <button class="lb-x" aria-label="Close">&times;</button>
+  <button class="lb-p" aria-label="Previous">&lsaquo;</button>
+  <button class="lb-n" aria-label="Next">&rsaquo;</button>
+  <img id="lb-img" alt="">
+  <div class="lb-c" id="lb-c"></div>
+</div>
+<script src="data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
